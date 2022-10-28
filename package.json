@@ -1,6 +1,9 @@
 {
-  "name": "caesar-nextjs-chakra-headless",
-  "version": "0.1.0",
+  "name": "apax-nextjs-chakra-headless",
+  "author": "Apax",
+  "license": "",
+  "copyright": "All Rights Reserved",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,11 +12,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/icons": "^2.0.11",
+    "@chakra-ui/react": "^2.3.6",
+    "@chakra-ui/theme-tools": "^2.0.12",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^7.6.2",
     "next": "13.0.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^13.0.0",
     "@types/node": "18.11.7",
     "@types/react": "18.0.23",
     "@types/react-dom": "18.0.7",
